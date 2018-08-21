@@ -1,8 +1,9 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: grey;
+    font-family: "Merriweather";
 }
-
 .nav {
     color: white;
     list-style: none;
@@ -13,7 +14,8 @@ body {
 .nav > li {
     display: inline-block;
     padding-top: 10px;
-    padding-right: 40px;
+    padding-right: 20px;
+    /* width: 100%; */
 }
 
 .nav > li > a {
@@ -30,7 +32,7 @@ body {
 .opening_font {
     font-family: "Merriweather";
     font-size: 50px;
-    line-height: 500px;
+    line-height: 60vh;
     text-align: center;
 }
 
@@ -38,7 +40,6 @@ body {
     float: left;
     padding-left: 35px;
     height: 50px;
-    width: 50px;
 }
 
 ul a img {
@@ -85,36 +86,7 @@ ul li a:hover .fab {
     background-size: cover;
     background: white;
     border: 10px solid grey;
-    height: 787px;
-}
-
-#contact {
-    background: grey;
-    height: 400px;
-    padding: 0;
-    margin: 0;
-}
-
-.text_style {
-    line-height: 100px;
-    font-family: "Merriweather";
-    text-align: center;
-}
-.food {
-    color:black;
-    text-decoration: none;
-    font-family: "Merriweather";
-    font-size: 20px;
-    line-height: 200px;
-}
-
-.social_button1 {
-    display: flex;
-    position: absolute;
-    left: 48%;
-    line-height: 300px;
-    transform: translate(-50%, -50%);
-    list-style: none;
+    height: 800px;
 }
 
 .button_code1 {
@@ -143,6 +115,30 @@ ul li a:hover .fab {
     color: #33CCFF;
 }
 
+h a {
+    text-decoration: none;
+    color: #99badd;
+}
+
+
+
+@media (max-width: 800px) {
+    #aboutMe {
+        font-size: 12px;
+    }
+    .opening_font {
+        font-size: 24px;
+    }
+    .social_button {
+        left: 45%;
+    }
+    ul li a {
+        font-size: 16px;
+    }
+    .logo_size {
+        padding-left: 10px;
+    }
+}
 
 
 

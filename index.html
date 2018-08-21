@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,23 +8,31 @@
     <link rel="shortcut icon" href="SH.jpg" type="image/png">
     <link rel="stylesheet" href="indexStyle.css">
     <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-    <script src = "JavaScript Files\typed.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous">
+    <script src="JavaScript Files\typed.js"></script>
+    <script src = "script.js" defer></script>
     <title>Shameek Hargrave</title>
 </head>
+
 <body>
-    <div id = "p1">
+    <div id="p1">
         <!--NavBar-->
-        <div>
-        <ul class = "nav">
-            <a href = "index.html">
-                <img src= "SH.jpg" class = "logo_size" alt="Failed to Load">
-            </a>
-            <li><a href = "#p1">Home</a></li>
-            <li><a href = "#aboutMe">About Me</a></li>
-            <li><a href = "#portfolio">Portfolio</a></li>
-            <li><a href = "#contact">Contact</a></li>
-        </ul>
+        <div id = "navBar">
+            <ul class="nav">
+                <a href="#p1">
+                    <img src="SH.jpg" class="logo_size" alt="Failed to Load">
+                </a>
+                <li>
+                    <a href="#aboutMe">About Me</a>
+                </li>
+                <li>
+                    <a href="#portfolio">Portfolio</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
         </div>
         <!--Typing effect strings-->
         <div id="typed-strings">
@@ -31,46 +40,36 @@
             <p>Student</p>
             <p>Web Developer</p>
             <p>Innovator</p>
+            <p>Shameek R. Hargrave</p>
         </div>
         <!--Typing Effect-->
-    <div class = "opening_font">
-    <span id="typed"></span>
-    </div>
-        <script>
-            var typed = new Typed('#typed', {
-                stringsElement: '#typed-strings',
-                backSpeed: 40,
-                typeSpeed: 40,
-                loop: true,
-                showCursor: false
-            });
-        </script>
-        <ul class = "social_button">
-        <li><a href = "https://www.linkedin.com/in/shameek-hargrave/" class = "button_code" target = "_blank"><i class="fab fa-linkedin-in"></i></a></li>
-        <li><a href = "https://github.com/shameekASC5" class = "button_code" target = "_blank"><i class="fab fa-github"></i></a></li>
-        <li><a href = "https://twitter.com/Shameek02" class = "button_code" target = "_blank"><i class="fab fa-twitter"></i></a></li>
-        </ul>
-    </div>
-
-    <!--<div id = "aboutMe">
+        <div class="opening_font">
+            <span id="typed"></span>
         </div>
+        <div id = "sButtons">
+        <ul class="social_button">
+            <li>
+                <a href="https://www.linkedin.com/in/shameek-hargrave/" class="button_code" target="_blank">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/shameekASC5" class="button_code" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://twitter.com/Shameek02" class="button_code" target="_blank">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li>
+        </ul>
 
-        <div id = "portfolio">
-            </div>
-
-            <div id = "contact">
-                <center>
-                    <h2 class = "text_style">Connect with Shameek Hargrave</h2>
-                </center>
-                <ul class = "social_button1">
-                        <li><a href = "https://www.linkedin.com/in/shameek-hargrave/" class = "button_code1" target = "_blank"><i class="fab fa-linkedin-in LI"></i></a></li>
-                        <li><a href = "https://github.com/shameekASC5" class = "button_code1" target = "_blank"><i class="fab fa-github GH"></i></a></li>
-                        <li><a href = "https://twitter.com/Shameek02" class = "button_code1" target = "_blank"><i class="fab fa-twitter TR"></i></a></li>
-                        </ul>
-                    <center>
-                            <a href = "mailto:shameekhargrave@gmail.com" class = "food">shameekhargrave@gmail.com</a>
-                    </center>
-                </div>-->
+        </div>
+        <center>
+            <h4>Email All Inquires to: <a href = "mailto:shameekhargrave@gmail.com?Subject=Inquiry%20From%20Your%20Awesome%20Website">shameekhargrave@gmail.com</a></h4>
+        </center>
+    </div>
 
 </body>
 </html>
