@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="SH.jpg" type="image/png">
+    <title>Shameek Hargrave | Projects</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="projectsStyle.css" />
+    <script src="scriptProject.js"></script>
+</head>
+<body>
+    <div id = main_container>
+        <!--NavBar-->
+        <div id = "navBar">
+                <ul class="nav">
+                    <a href="index.html">
+                        <img src="SH.jpg" class="logo_size" alt="Failed to Load">
+                    </a>
+                    <li>
+                        <a href="aboutMe.html">About Me</a>
+                    </li>
+                    <li>
+                        <a href="projects.html">Projects</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        <!-- <center>
+            <h1>Projects</h1>
+        </center> -->
+        <div id = project_list>
+<!-- Fortune Cookie Simulator -->
+            <div class="container project" onclick=fortune()>
+                <img class = projectIMG src = "assets/fortuneIMG.PNG" alt = "IMG Preview">
+                <div class="overlay">
+                    <div class="text">
+                        <h3>Fortune Cookie Simulator</h3>
+                        <p>Maybe you want a cool fortune, but don't want to risk the <i>massive</i> caloric intake that 
+                        a fortune cookie surely entails? Worry not! With the click of button you can access an awesome fortune, custom
+                        tailored to you!</p>
+                        </div>
+                </div>
+            </div>
+<!-- Calculator -->
+            <div class="container project" onclick=calculator()>
+                <img class = projectIMG src = "assets/calculatorIMG.PNG" alt = "IMG Preview">
+                <div class="overlay">
+                    <div class="text">
+                    <h2>Calculator</h2>
+                    <p>A reflection of simpler times, when calculators were intuitivly designed.</p>
+                    </div>
+                </div>
+            </div>
+<!-- Hackathon -->
+            <div class="container project" onclick=hackathon()>
+                <img class = projectIMG src = "assets/hackathonIMG.PNG" alt = "IMG Preview">
+                <div class="overlay">
+                    <div class="text">
+                    <h2>Quick Draw</h2>
+                    <p>A simple two player game created in the span of five hours by a team of inspired engineers.</p>        
+                    </div>
+                </div>
+            </div>
+<!-- Paint Tool -->
+            <div class="container project" onclick=paintTool()>
+                <img class = projectIMG src = "assets/paintIMG.PNG" alt = "IMG Preview">
+                <div class="overlay">
+                    <div class="text">
+                        <h2>Paint Tool</h2>
+                        <p>An online canvas to make the wildest designs a reality.</p>
+                        <h6>Made with p5.js</h6>
+                    </div>
+                </div>
+            </div>
+<!-- Meek Pong -->
+            <div class="container project" onclick=meekPong()>
+                 <img class = projectIMG src = "assets/meekpongIMG.PNG" alt = "IMG Preview">
+                <div class="overlay">
+                    <div class="text">
+                    <h2>Meek Pong</h2>
+                    <p>A clone of the first game to be released on the Atari.</p>
+                    </div>
+                </div>
+            </div>
+<!-- Coming Soon -->
+            <div class="container project">
+                <img class = projectIMG src = "assets/cs.jpg" alt = "IMG Preview">
+                <div class="overlay">
+                    <div class="text">
+                    <h2>Coming Soon</h2>
+                    <p>New projects are in development.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,126 @@
+body 
+{
+    background-color: grey;
+    font-family: "Merriweather", serif;
+}
+#main_container
+{
+    background-color: white;
+    padding: 10px 3vh 10px 0px;
+}
+/* Navbar */
+.nav {
+    color: white;
+    list-style: none;
+    text-align: right;
+    padding: 20px 0 20px 0;
+}
+
+.nav > li {
+    display: inline-block;
+    padding-top: 10px;
+    padding-right: 20px;
+    /* width: 100%; */
+}
+
+.nav > li > a {
+    color: Black;
+    font-family: "Merriweather";
+    text-decoration: none;
+}
+
+.nav > li > a:hover {
+    border-bottom: solid 4px #f4df41;
+    padding-bottom: 2px;
+}
+
+.opening_font {
+    font-family: "Merriweather";
+    font-size: 50px;
+    line-height: 60vh;
+    text-align: center;
+}
+
+.logo_size {
+    float: left;
+    padding-left: 35px;
+    height: 50px;
+}
+
+ul a img {
+    position: relative;
+    transition: 1s;
+}
+ul a img:hover {
+    transform: rotateX(360deg);
+}
+/* End of Navbar */
+#project_list
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* align-items:center; */
+    
+}
+.project 
+{
+    /* background-color: white; */
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    margin: 10px;
+}
+
+.projectIMG 
+{
+    padding: 0px  2px;
+    margin:10px;
+    border-radius: 20px;    
+}
+
+.project img
+{
+    width: 100%;
+    height: 100%;
+}
+.container 
+{
+    position: relative;
+    width: 50vh;
+    height: 45vh;    
+}
+  
+  
+.overlay {
+    position: absolute;
+    top: 10px;
+    bottom: 1px;
+    left: 10px;
+    right: 0;
+    height: 100%;
+    width: 101%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: white;
+    border-radius: 20px;
+}
+  
+.container:hover .overlay 
+{
+    opacity: 1;
+}
+  
+.text 
+{
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    /* text-align: center; */
+    font-size: 17px;
+}
