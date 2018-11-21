@@ -86,7 +86,7 @@ ul li a:hover .fab {
     background-size: cover;
     background: white;
     border: 10px solid grey;
-    height: 800px;
+    height: 97.5vh;
 }
 
 .button_code1 {
@@ -139,6 +139,3 @@ h a {
         padding-left: 10px;
     }
 }
-
-
-
