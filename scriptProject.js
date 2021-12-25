@@ -1,29 +1,31 @@
+let websitePrefix = "https://shameekasc5.github.io/"
+
 function paintTool()
 {
-    window.location = "https://shameekhargrave.com/paintTool/";
+    window.location = websitePrefix + "paintTool/";
 }
 
 function virtualCookie()
 {
-    window.location = "https://shameekhargrave.com/Fortune/";
+    window.location = websitePrefix + "Fortune/";
 }
 
 function calculator()
 {
-    window.location = "https://shameekhargrave.com/Calculator/";
+    window.location = websitePrefix + "Calculator/";
 }
 
 function hackathon()
 {
-    window.location = "https://shameekhargrave.com/Hackathon8_9/";
+    window.location = websitePrefix + "Hackathon8_9/";
 }
 
 function meekPong()
 {
-    window.location = "https://shameekhargrave.com/Meek-Pong/";
+    window.location = websitePrefix + "Meek-Pong/";
 }
 
 function fortune()
 {
-    window.location = "https://shameekhargrave.com/Fortune/";
+    window.location = websitePrefix + "Fortune/";
 }
