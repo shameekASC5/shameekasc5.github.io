@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="logo.png" type="image/png">
+    <title>Join My Group!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <script src="script.js"></script>
+</head>
+<body>
+   <div id="main_container">
+      <img src="logo.png" class="logo_size" alt="Failed to Load">
+      <form method="post" action="#" onsubmit="javascript: findUUID()" id="login-form" class="login-form" autocomplete="off" role="main">
+         <h1 class="a11y-hidden">New User in Group Form</h1>
+         <div>
+            <label class="label-name">
+              <input type="name" class="text" name="name" placeholder="Name" tabindex="1" required />
+              <span class="required">Name</span>
+            </label>
+          </div>
+         <div>
+           <label class="label-email">
+             <input type="email" class="text" name="email" placeholder="Email" tabindex="1" required />
+             <span class="required">Email</span>
+           </label>
+         </div>
+         <!-- <input type="checkbox" name="show-password" class="show-password a11y-hidden" id="show-password" tabindex="3" />
+         <label class="label-show-password" for="show-password">
+           <span>Show Password</span>
+         </label> -->
+         <div>
+           <label class="label-phone">
+             <input type="text" class="text" name="phone" placeholder="Phone Number" tabindex="2" required />
+             <span class="required">Phone Number</span>
+           </label>
+         </div>
+         <input type="submit" value="Log In" />
+         <div class="email">
+           <a href="#">Forgot password?</a>
+         </div>
+       </form>
+   </div>
+
+</body>
+</html>
