@@ -2,30 +2,50 @@ let websitePrefix = "https://shameekasc5.github.io/"
 
 function paintTool()
 {
-    window.location = websitePrefix + "paintTool/";
+   window.open(websitePrefix + "paintTool/", '_blank');
 }
 
 function virtualCookie()
 {
-    window.location = websitePrefix + "Fortune/";
+   window.open(websitePrefix + "Fortune/", '_blank');
 }
 
 function calculator()
 {
-    window.location = websitePrefix + "Calculator/";
+   window.open(websitePrefix + "Calculator/", '_blank');
 }
 
 function hackathon()
 {
-    window.location = websitePrefix + "Hackathon8_9/";
+   window.open(websitePrefix + "Hackathon8_9/", '_blank');
 }
 
 function meekPong()
 {
-    window.location = websitePrefix + "Meek-Pong/";
+   window.open(websitePrefix + "Meek-Pong/", '_blank');
 }
 
 function fortune()
 {
-    window.location = websitePrefix + "Fortune/";
+   window.open(websitePrefix + "Fortune/", '_blank');
+}
+
+function mealize()
+{
+   window.open("https://mealizeme.ga", '_blank');
+}
+
+function rwCutz()
+{
+   window.open(websitePrefix + "RWcutz/", '_blank');
+}
+
+function attitudeTowardChina()
+{
+    window.open(websitePrefix + "AttitudeTowardChina/", '_blank');
+}
+
+function escapeVape()
+{
+    window.open(websitePrefix + "escape-vape/", '_blank');
 }
